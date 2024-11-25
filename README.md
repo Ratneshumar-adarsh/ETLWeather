@@ -1,7 +1,7 @@
 Overview
 ========
 
-Welcome to Astronomer! This project was generated after you ran 'astro dev init' using the Astronomer CLI. This readme describes the contents of the project, as well as how to run Apache Airflow on your local machine.
+This project demonstrates the orchestration of a data pipeline using Astro and Apache Airflow. The pipeline fetches weather data for a specific location from an external API and loads it into a PostgreSQL database. Docker is used to containerize the environment, and DBWeaver serves as the client to interact with the PostgreSQL database.
 
 Project Contents
 ================
